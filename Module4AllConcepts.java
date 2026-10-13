@@ -131,7 +131,7 @@ public class Module4AllConcepts {
         System.out.print("Username (try: admin): ");
         String user = sc.nextLine().trim();
         System.out.print("Password (try: Java@123): ");
-        String pass = sc.nextLine();
+        String pass = sc.nextLine().trim();
 
         boolean userOk = user.equalsIgnoreCase(savedUser); // usernames: case-insensitive
         boolean passOk = pass.equals(savedPass);           // passwords: case-sensitive
